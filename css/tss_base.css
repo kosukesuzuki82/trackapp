@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* レスポンシブルデザインは下記内に記載する */
+@media screen and(max-width:480px) {
+}
+/* 全体構成 */
+body{
+  background-color: lightskyblue;
+  width: 100%;
+}
+/* ヘッダー */
+header{
+  text-align: center;
+  font-size: 30px;
+  margin: 1% 0 1% 0;
+  position: relative;
+}
+.user{
+  position:absolute;
+  top: 3%;
+  margin: auto auto auto 2%;
+}
+/* メインゾーン */
+.main{
+  width: 100%;
+  height: 100%;
+}
+.upper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* マップゾーン */
+.map_area{
+  width: 55%;
+  height: 55%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: aquamarine;
+}
+/* インプットゾーン */
+.input_area{
+  width: 40%;
+  margin-left: 2%;
+  padding-top: 1%;
+  padding-left: 1%;
+  background-color: aquamarine;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+select{
+  margin-right: 2%;
+}
+li{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 2% 0;
+}
+.inpbox{
+  width: 30%;
+}
+.what{
+  width: 70%;
+}
+.ser_sub{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* トラックゾーン */
+.under{
+  background-color: aquamarine;
+  text-align: center;
+  width: 98%;
+  margin:1% auto 0 auto;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  display: flex;
+  flex-wrap: wrap; 
+
+}
+
+.track_side{
+  margin: 2%;
+}
+.track_back{
+  margin: 2%;
+}
+.sendlist{
+  margin: 2%;
+}
+
+.ans,.ana{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-color: black;
+  margin: 0 0 10% 0;
+}
+
+/* popupタグ */
+.form_regi {
+  width: 400px;
+  height:350px;
+  padding: 40px 10px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: lightseagreen;
+  text-align: center;
+  border-radius: 5px;
+}
+form h1,form p {
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+}
+.confirm,.reject{
+  width: 30%;
+  margin-top: 60px;
+}
+.mail_date,.mail_money,.mail_amount{
+  margin: 20px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+}
+h1,h2{
+  margin: 0 auto 3% auto;
+}
+h2{
+  font-size: 20px;
+}
+
+/* canvas */
+.canvas_ana{
+  margin-top: 19px;
+}
+/* listゾーン */
+.list{
+  margin-left:1%;
+}
+.list_zone{
+  margin-top: 20px;
+}
+.list_box{
+  margin-top: 20px;
+}
+.anslist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
